@@ -9,7 +9,7 @@ mkdir -p ~/ros_ws/kuka_raw_driver_install
 cd ~/ros_ws/kuka_raw_driver_install
 
 echo "[----------> FRI <------------------]"
-git clone https://github.com/prachandabhanu/KUKA_FRI.git
+git clone -b noetic https://github.com/prachandabhanu/KUKA_FRI.git
 cd KUKA_FRI
 rm -rf FRI-Client-SDK_Cpp.zip
 rm -rf kuka_fri-master.zip
